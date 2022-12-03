@@ -1,0 +1,14 @@
+displayName: IP2Geo
+type: middleware
+# iconPath: .assets/icon.png
+
+import: github.com/mynicolas/traefik-plugin-ip2geo
+
+summary: 'traefik插件，源IP转地理位置，保存到elasticsearch'
+
+testData:
+  Address: http://ip2geo.common.svc.cluster.local
+  Elasticsearch: http://10.12.16.68:9200
+  ESUsername: kibana
+  ESPassword: Yunwei2020*#
+
