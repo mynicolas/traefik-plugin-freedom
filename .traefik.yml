@@ -1,8 +1,8 @@
-displayName: IP2Geo
+displayName: Freedom Plugin
 type: middleware
 # iconPath: .assets/icon.png
 
-import: github.com/mynicolas/traefik-plugin-ip2geo
+import: github.com/mynicolas/traefik-plugin-freedom
 
 summary: 'traefik插件，源IP转地理位置，保存到elasticsearch'
 
